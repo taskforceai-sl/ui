@@ -1,6 +1,6 @@
 {
-  "short_name": "Invoice Ninja (React)",
-  "name": "Invoice Ninja (React)",
+  "short_name": "Red Invoice",
+  "name": "Red Invoice",
   "icons": [
     {
       "src": "favicon.ico",
@@ -15,6 +15,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#240000",
+  "background_color": "#fcc0c0"
 }

@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -45,7 +45,7 @@ export default function UserSelection() {
   const [isFormBusy, setIsFormBusy] = useState<boolean>(false);
   const [usersWithStatus, setUsersWithStatus] = useState<UserWithDocuNinjaStatus[]>([]);
 
-  // Fetch Invoice Ninja users
+  // Fetch Red Invoice users
   const { data: invoiceNinjaUsers, isLoading: isLoadingInvoiceUsers } = useUsersForDocuNinjaQuery();
 
   const company = useCurrentCompany();  
@@ -136,10 +136,10 @@ export default function UserSelection() {
       );
 
 
-      // Create DocuNinja users for selected Invoice Ninja users
+      // Create DocuNinja users for selected Red Invoice users
       const promises = uniqueSelectedUsers.map(user => {
         const payload = {
-          id: user.id, // Pass the Invoice Ninja user ID
+          id: user.id, // Pass the Red Invoice user ID
           first_name: user.first_name,
           last_name: user.last_name,
           email: user.email,
@@ -161,7 +161,7 @@ export default function UserSelection() {
       
       toast.success(t('docuninja_access_granted_successfully') as string);
       
-      // Refetch both DocuNinja users and Invoice Ninja users to update status
+      // Refetch both DocuNinja users and Red Invoice users to update status
       $refetch(['docuninja_users']);
       $refetch(['users']);
       

@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -16,7 +16,7 @@ export function Header() {
     <>
       <div className="flex justify-center py-8">
         <Link to="/">
-          <img src={Logo} alt="Invoice Ninja Logo" className="h-12" />
+          <img src={Logo} alt="Red Invoice Logo" className="h-12" />
         </Link>
       </div>
     </>

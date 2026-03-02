@@ -14,6 +14,10 @@ module.exports = {
           'gray-darker': '#2F2E2E',
           'gray-lighter': '#363D47',
         },
+        redinvoice: {
+          dark: '#240000',
+          light: '#fcc0c0',
+        },
       },
     },
   },

@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -116,7 +116,7 @@ export function PriceIncreaseBanner() {
 
         <button type="button" onClick={handleClick}>
           <Link
-            to="https://invoiceninja.com/pricing-update-january-1-2026/"
+            to="https://invoice.theredsun.org/pricing-update-january-1-2026/"
             external
             withoutExternalIcon
           >

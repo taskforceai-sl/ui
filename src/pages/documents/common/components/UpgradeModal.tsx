@@ -240,7 +240,7 @@ export function UpgradeModal({ visible, onClose, onPaymentComplete }: Props) {
             description: 'Add E-Signatures',
             features: [
                 'Capture E-Signatures',
-                'Integrates Deeply With Invoice Ninja',
+                'Integrates Deeply With Red Invoice',
                 'Unlimited Signature requests',
                 'API Access',
             ]

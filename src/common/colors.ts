@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -25,14 +25,14 @@ import { useReactSettings } from './hooks/useReactSettings';
 // };
 
 export const darkColorScheme = {
-  name: 'invoiceninja.dark',
+  name: 'redinvoice.dark',
   $0: 'dark',
-  $1: '#121212',
-  $2: '#121212',
+  $1: '#240000',
+  $2: '#240000',
   $3: 'rgba(255, 255, 255, 0.87)',
   $4: '#1f2e41',
   $5: '#1f2e41',
-  $6: '#121212',
+  $6: '#240000',
   $7: '#151f2c',
   $8: '#1f2e41',
   $9: '#ffffff',
@@ -40,7 +40,7 @@ export const darkColorScheme = {
   $11: 0.6, // Medium emphasis text
   $12: 0.38, // Disabled text
   $13: '#E5E7EB', // Navbar right icon hover
-  $14: '#121212', // Navigation bar background color
+  $14: '#240000', // Navigation bar background color
   $15: '#323236', // Light gray background
   $16: '#A1A1AA', // Dark gray icon
   $17: '#9D9DA8', // Placeholder text, table header text color
@@ -49,15 +49,15 @@ export const darkColorScheme = {
   $20: '#323236', // Dropdown element hover background color
   $21: '#1f2e41', // Divider color
   $22: '#a1a1aa', // Label color
-  $23: '#121212', // Content background color
+  $23: '#240000', // Content background color
   $24: '#323236', // Border color
   $25: '#1f2e41', // Hover element background color
 };
 
 export const lightColorScheme = {
-  name: 'invoiceninja.light',
+  name: 'redinvoice.light',
   $0: 'light',
-  $1: '#ffffff', // Primary background
+  $1: '#fcc0c0', // Primary background
   $2: '#f7f7f7', // Secondary background
   $3: '#2a303d', // Primary text
   $4: '#f7f7f7', // Primary border
@@ -79,7 +79,7 @@ export const lightColorScheme = {
   $20: '#09090B13', // Dropdown element hover background color
   $21: '#09090B1A', // Divider color
   $22: '#717179', // Label color
-  $23: '#F4F4F5', // Content background color
+  $23: '#fcc0c0', // Content background color
   $24: '#09090B26', // Border color
   $25: '#09090B0D', // Hover element background color
 };
