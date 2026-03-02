@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -287,7 +287,7 @@ export function HelpSidebarIcons(props: Props) {
                 <div
                   className="cursor-pointer"
                   onClick={() =>
-                    window.open('https://slack.invoiceninja.com', '_blank')
+                    window.open('https://slack.invoice.theredsun.org', '_blank')
                   }
                 >
                   <Icon element={FaSlack} color="white" size={21.5} />
@@ -304,7 +304,7 @@ export function HelpSidebarIcons(props: Props) {
                 <div
                   className="cursor-pointer"
                   onClick={() =>
-                    window.open('https://forum.invoiceninja.com', '_blank')
+                    window.open('https://forum.invoice.theredsun.org', '_blank')
                   }
                 >
                   <Message color="white" size="1.3rem" />

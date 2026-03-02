@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -11,11 +11,11 @@ import { ChangeEvent } from 'react';
 import { Vendor } from './vendor';
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */

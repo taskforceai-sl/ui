@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2024. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2024. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -124,7 +124,7 @@ export function Plan2() {
                 <h3 className="font-semibold mb-3">Pro</h3>
                 <p className="flex items-center space-x-1">
                   <Check size={18} style={{ color: accentColor }} />
-                  <span className="block">Remove Invoice Ninja logo</span>
+                  <span className="block">Remove Red Invoice logo</span>
                 </p>
                 <p className="flex items-center space-x-1">
                   <Check size={18} style={{ color: accentColor }} />

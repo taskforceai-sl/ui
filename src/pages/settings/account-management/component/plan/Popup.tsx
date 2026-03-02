@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2024. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2024. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -487,7 +487,7 @@ export function Popup({ visible, onClose }: PopupProps) {
 
                 <div className="flex flex-col space-y-3">
                   <a
-                    href="mailto:concierge@invoiceninja.com"
+                    href="mailto:concierge@invoice.theredsun.org"
                     type="button"
                     className="border py-3 px-4 rounded text-center"
                     style={{ backgroundColor: accentColor, color: colors.$1 }}

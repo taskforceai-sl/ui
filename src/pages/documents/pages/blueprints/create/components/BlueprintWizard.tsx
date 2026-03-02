@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice.
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/taskforceai-sl/ui source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -118,7 +118,7 @@ function SelectionStep({
   }> = [
     {
       id: 'invoice-ninja',
-      title: 'Invoice Ninja',
+      title: 'Red Invoice',
       description: t('invoice_ninja_template_description'),
       icon: <Icon element={FileText} size={32} />,
       onClick: onSelectInvoiceNinja,
